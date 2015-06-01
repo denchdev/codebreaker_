@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "This is Codebreaker"
   spec.description   = "Description"
   spec.email         = ["denromani4@gmail.com"] 
-  spec.homepage      = "https://github.com/denromani4/code_breaker"
+  spec.homepage      = "https://github.com/denromani4/codebreaker"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
