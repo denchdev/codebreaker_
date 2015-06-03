@@ -3,7 +3,7 @@ require 'yaml'
 module Codebreaker
 	class Saver
 		attr_accessor :users
-		SAVEFILE = "../../data/data"
+		SAVEFILE = "./data/data"
 		def initialize
 			@users = self.read_from_file(SAVEFILE) if File.exist? SAVEFILE
 			@users = {}
